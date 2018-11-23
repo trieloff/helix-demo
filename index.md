@@ -22,6 +22,10 @@ https://www.youtube.com/watch?v=a01QQZyl-_I
 
 It works! demo is up and running.
 
+# Another embed
+
+https://www.youtube.com/watch?v=Kee9Et2j7DA
+
 ## What's next?
 
 1. Try editing `index.md` and see what happens.
