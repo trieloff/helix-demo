@@ -4,6 +4,7 @@ strains:
     origin: https://www.adobe.io/
   default:
     content: https://github.com/trieloff/helix-demo.git
+    static: https://github.com/trieloff/helix-demo.git
     code: /trieloff/default/https---github-com-trieloff-helix-demo-git--master--
   legacy:
     url: https://www.primordialsoup.life/content
