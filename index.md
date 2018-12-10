@@ -14,7 +14,7 @@
   ~ See the License for the specific language governing permissions and
   ~ limitations under the License.
   -->
-![Adobe I/O Content](/content/udp/en/_jcr_content/contentbody/textandimage_1339034461/image.img.jpg/1535485210020.jpg)
+![Adobe I/O Content](/content/dam/udp/language-masters/en/home_callout01.jpg.img.jpg)
 
 https://www.youtube.com/watch?v=a01QQZyl-_I
 
