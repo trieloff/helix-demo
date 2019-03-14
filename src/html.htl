@@ -30,8 +30,8 @@ img {
 </head>
 <body>
 
-<div data-sly-list="${content.children}">
-    <div class="container">${item}</div>
+<div data-sly-list="${content.document.body.children}">
+    <div class="container" class="${content.document.body.children[item].tagName}">${content.document.body.children[item].outerHTML}</div>
 </div>
 
 <hr>
