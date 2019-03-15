@@ -41,4 +41,4 @@ https://www.youtube.com/watch?v=Kee9Et2j7DA
 
 ## Does this image make my site look big?
 
-![](./big-image.jpg)
+![A guy with cool glasses](htdocs/big-image.jpg)
