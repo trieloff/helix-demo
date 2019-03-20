@@ -1,0 +1,30 @@
+{
+  "name": "helix-demo",
+  "version": "1.0.0",
+  "description": "A small demo site for Project Helix",
+  "main": "index.js",
+  "dependencies": {
+    "@barba/core": "^2.1.0",
+    "bulma": "^0.7.4"
+  },
+  "devDependencies": {
+    "@pika/web": "^0.3.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "pika-web --dest htdocs/web_modules"
+  },
+  "@pika/web": {
+    "dest": "htdocs/web_modules"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trieloff/helix-demo.git"
+  },
+  "author": "Lars Trieloff",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/trieloff/helix-demo/issues"
+  },
+  "homepage": "https://github.com/trieloff/helix-demo#readme"
+}
