@@ -47,8 +47,8 @@ barba.init({
 </head>
 <body>
     <nav>
-        <a href="Home">index.html</a>
-        <a href="More">more.html</a>
+        <a href="index.html">Home</a>
+        <a href="more.html">More</a>
     </nav>
     <main>
         <div data-sly-list="${content.document.body.children}">
