@@ -22,11 +22,6 @@
     <link rel="shortcut icon" type="image/x-icon" href="/dist/favicon.ico">
     <title>${content.title}</title>
     <link rel="stylesheet" href="/css/bulma.css"/>
-    <style>
-img {
-	max-width: 100vw;
-}
-    </style>
     <script src="index.js" type="module"></script>
 </head>
 <body>

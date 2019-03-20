@@ -1,4 +1,4 @@
-import barba from './web_modules/@barba--core'; // Or nothing if loaded via the browser
+import barba from './web_modules/@barba--core.js'; // Or nothing if loaded via the browser
 
 // Basic default transition, with no rules and minimal hooks…
 barba.init({
