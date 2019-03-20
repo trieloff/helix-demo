@@ -5,6 +5,7 @@
   "main": "index.js",
   "dependencies": {
     "@barba/core": "^2.1.0",
+    "@barba/prefetch": "^2.1.0",
     "bulma": "^0.7.4"
   },
   "devDependencies": {
