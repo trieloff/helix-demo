@@ -24,13 +24,13 @@
     <link rel="stylesheet" href="/css/bulma.css"/>
     <script src="index.js" type="module"></script>
 </head>
-<body>
+<body data-barba="wrapper">
     <div class="columns">
         <nav class="column is-one-quarter">
             <a href="index.html">Home</a>
             <a href="more.html">More</a>
         </nav>
-        <main class="column is-three-quarters">
+        <main class="column is-three-quarters" data-barba="container" data-barba-namespace="${request.path}">
                 <div data-sly-list="${content.document.body.children}">
                     <div class="container" class="${content.document.body.children[item].tagName}">${content.document.body.children[item].outerHTML}</div>
                 </div>
