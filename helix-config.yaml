@@ -1,12 +1,15 @@
 strains:
-  proxy:
+  -
+    name: proxy
     url: https://proxy.primordialsoup.life
     origin: https://www.adobe.io/
-  default:
+  -
+    name: default
     content: https://github.com/trieloff/helix-demo.git#master
     static: https://github.com/trieloff/helix-demo.git/htdocs#master
     code: ssh://git@github.com/trieloff/helix-demo.git#master
     package: trieloff/feeb2ae12cfb31dc304ad6c52433f74ed87ba67f
-  legacy:
+  - 
+    name: legacy
     url: https://www.primordialsoup.life/content
     origin: https://www.adobe.io
