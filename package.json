@@ -9,7 +9,7 @@
     "bulma": "^0.7.4"
   },
   "devDependencies": {
-    "@adobe/helix-cli": "^0.13.10",
+    "@adobe/helix-cli": "adobe/helix-cli#static-esi",
     "@pika/web": "^0.3.2"
   },
   "scripts": {
