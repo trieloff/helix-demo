@@ -1,7 +1,3 @@
-/** @-jsx h */
-
-//import h from 'hyperscript';
-
 const App = (title) => (
   <div className="App">
     <img className="App-Logo" src="foo.jpg" alt="{title}" />
@@ -16,5 +12,3 @@ module.exports.main = (context) => {
 		}
 	}
 };
-
-//console.log(App("test.png").outerHTML);
