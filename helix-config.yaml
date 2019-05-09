@@ -15,4 +15,4 @@ strains:
     code: ssh://git@github.com/trieloff/helix-demo.git#test-branch
     content: https://github.com/trieloff/helix-demo.git#master
     static: https://github.com/trieloff/helix-demo.git/htdocs#master
-    package: trieloff/9709178ad6fb7ef4291e5735187f1641e0d3bf44
+    package: trieloff/2c5fbf40237634b75ba3ed821172dfc53b27a091
