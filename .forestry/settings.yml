@@ -7,13 +7,12 @@ sections:
 - type: document
   path: index.md
   label: Home
-  match: "**/*"
 - type: directory
   path: ''
   label: Root
   create: all
   match: "**/*.md"
-  new_doc_ext: ".md"
+  new_doc_ext: md
   templates:
   - blog-post
 upload_dir: uploads
