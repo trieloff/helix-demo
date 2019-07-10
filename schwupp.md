@@ -1,5 +1,5 @@
 ---
 title: 'Schwupp '
-
 ---
-Diewupp 
+
+Diewupp. Jupp.
