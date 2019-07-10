@@ -11,7 +11,7 @@ sections:
   path: ''
   label: Root
   create: all
-  match: "**/*.md"
+  match: "*.md"
   new_doc_ext: md
   templates:
   - blog-post
