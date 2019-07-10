@@ -1,3 +1,6 @@
++++
+
++++
 ![Adobe I/O Content](/content/dam/udp/language-masters/en/home_callout01.jpg.img.jpg)
 
 https://www.youtube.com/watch?v=a01QQZyl-_I
@@ -27,4 +30,4 @@ https://www.youtube.com/watch?v=Kee9Et2j7DA
 
 ![A guy with cool glasses](htdocs/big-image.jpg)
 
-Trying editing with Forestry.
+Trying editing with Forestry. Done.
