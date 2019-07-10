@@ -7,5 +7,16 @@ fields:
   config:
     required: false
   label: Title
+- name: date
+  type: datetime
+  label: Date
+  description: ''
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
+    export_format: YYYY-MM-DD
+  default: now
 pages:
 - schwupp.md
