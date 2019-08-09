@@ -9,3 +9,7 @@ title = "Foo"
 There is more.
 
 Let's edit this page.
+
+/foo.md
+
+/foo.html
