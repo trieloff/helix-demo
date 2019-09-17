@@ -1,6 +1,5 @@
-+++
+# Hello, Helix
 
-+++
 ![Adobe I/O Content](/content/dam/udp/language-masters/en/home_callout01.jpg.img.jpg)
 
 https://www.youtube.com/watch?v=a01QQZyl-_I
