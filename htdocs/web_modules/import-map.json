@@ -1,0 +1,6 @@
+{
+  "imports": {
+    "@barba/core": "./@barba/core.js",
+    "@barba/prefetch": "./@barba/prefetch.js"
+  }
+}

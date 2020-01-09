@@ -10,13 +10,13 @@
   },
   "devDependencies": {
     "@adobe/helix-cli": "^7.0.1",
-    "@pika/web": "^0.6.1"
+    "snowpack": "^1.0.2"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "prepare": "pika-web --dest htdocs/web_modules"
+    "prepare": "snowpack --dest htdocs/web_modules"
   },
-  "@pika/web": {
+  "snowpack": {
     "dest": "htdocs/web_modules"
   },
   "repository": {
