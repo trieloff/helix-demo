@@ -32,8 +32,9 @@
         </nav>
         <main class="column is-three-quarters" data-barba="container" data-barba-namespace="${request.path}">
                 <div data-sly-list="${content.document.body.children}">
-                	${content.document.body}
-                    <!--div class="container" class="${content.document.body.children[item].tagName}">${content.document.body.children[item].outerHTML}</div-->
+                	<div class="container ${item.tagName}">
+						${item}
+                	<div>
                 </div>
         </main>
     </div>
