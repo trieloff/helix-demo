@@ -6,7 +6,7 @@ strains:
     content: 'https://github.com/trieloff/helix-demo.git#master'
     static: https://github.com/trieloff/helix-demo.git/htdocs#master
     code: ssh://git@github.com/trieloff/helix-demo.git#master
-    package: trieloff/d652f5007c0779c44b12598420bd15871db00f4e
+    package: trieloff/5a448d7fd459a6a5aebe8e847c052c31189504c9
   - name: legacy
     url: https://www.primordialsoup.life/content
     origin: https://www.adobe.io
