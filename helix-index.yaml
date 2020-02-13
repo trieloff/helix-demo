@@ -31,6 +31,10 @@ indices:
         query: "*"
         hitsPerPage: 25
         cache: 600
+      new:
+        query: "*"
+        hitsPerPage: 1
+        cache: 0
       by-author:
         parameters: author
         query: "*"
