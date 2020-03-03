@@ -1,0 +1,16 @@
+on:
+  push:
+    branches-ignore:
+      - 'master'
+
+jobs:
+  ci_trigger:
+    runs-on: ubuntu-latest
+    name: Comment Semantic Release Status
+    steps:
+      - name: Comment
+        id: comment
+        uses: trieloff/semantic-release-comment-action@v1.5.7
+        with:
+          repo-token: ${{ secrets.MY_GITHUB_TOKEN }}
+          user: trieloff
