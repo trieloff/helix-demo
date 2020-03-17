@@ -12,5 +12,5 @@ jobs:
         id: comment
         uses: trieloff/semantic-release-comment-action
         with:
-          repo-token: ${{ secrets.MY_GITHUB_TOKEN }}
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
           user: trieloff
