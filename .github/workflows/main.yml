@@ -10,7 +10,7 @@ jobs:
     steps:
       - name: Comment
         id: comment
-        uses: trieloff/semantic-release-comment-action
+        uses: trieloff/semantic-release-comment-action@master
         with:
-          repo-token: ${{ secrets.MY_GITHUB_TOKEN }}
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
           user: trieloff
