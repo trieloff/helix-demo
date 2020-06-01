@@ -1,0 +1,1 @@
+Micropub test of creating an h-entry with a JSON request
