@@ -1,0 +1,4 @@
+redirects:
+  - from: (.*).php
+    to: $1.html
+    type: temporary
