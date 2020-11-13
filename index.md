@@ -1,4 +1,4 @@
-# Hello, Helix
+# Hello, Helix (Things are new)
 
 ![Adobe I/O Content](/content/dam/udp/language-masters/en/home_callout01.jpg.img.jpg)
 
@@ -29,4 +29,4 @@ https://www.youtube.com/watch?v=Kee9Et2j7DA
 
 ![A guy with cool glasses](htdocs/big-image.jpg)
 
-Trying editing with Forestry. Done. Test test.
+I like new things, don't you?
