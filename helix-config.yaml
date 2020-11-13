@@ -1,13 +1,16 @@
+preflight: https://adobeioruntime.net/api/v1/web/trieloff/10e05c072b108ac9533c6206c6eaa651901ca29b/cgi-bin-strain
+
 strains:
   - name: proxy
     condition:
-      url: https://proxy.primordialsoup.life
+      preflight.site-version>: 1
+
     origin: https://www.adobe.io/
   - name: default
     content: 'https://github.com/trieloff/helix-demo.git#master'
     static: https://github.com/trieloff/helix-demo.git/htdocs#master
     code: ssh://git@github.com/trieloff/helix-demo.git#master
-    package: helix-mini/1c5a9c84c2f7ee6f674bdf13436a7d904f518cfd
+    package: trieloff/10e05c072b108ac9533c6206c6eaa651901ca29b
   - name: legacy
     condition:
       url: https://www.primordialsoup.life/content
