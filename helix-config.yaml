@@ -1,11 +1,13 @@
 preflight: https://adobeioruntime.net/api/v1/web/trieloff/10e05c072b108ac9533c6206c6eaa651901ca29b/cgi-bin-strain
 
 strains:
-  - name: proxy
+  - name: new
     condition:
       preflight.site-version>: 1
-
-    origin: https://www.adobe.io/
+    content: 'https://github.com/trieloff/helix-demo.git#new-things'
+    static: https://github.com/trieloff/helix-demo.git/htdocs#master
+    code: ssh://git@github.com/trieloff/helix-demo.git#master
+    package: trieloff/10e05c072b108ac9533c6206c6eaa651901ca29b
   - name: default
     content: 'https://github.com/trieloff/helix-demo.git#master'
     static: https://github.com/trieloff/helix-demo.git/htdocs#master
