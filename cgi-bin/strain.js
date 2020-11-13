@@ -5,7 +5,7 @@ module.exports.main = (params) => {
       body: "Hello New World",
       headers: {
         "Content-Type": "text/plain",
-        "X-Version": "2",
+        "Site-Version": "2",
         "Vary": "User-Agent"
       }
     }
@@ -15,7 +15,7 @@ module.exports.main = (params) => {
 		body: "Hello World",
 		headers: {
       "Content-Type": "text/plain",
-      "X-Version": "1",
+      "Site-Version": "1",
       "Vary": "User-Agent"
 		}
 	}
