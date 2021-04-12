@@ -2,3 +2,5 @@ redirects:
   - from: (.*).php
     to: $1.html
     type: temporary
+  - from: /old/(.*)
+    to: /new/$1
