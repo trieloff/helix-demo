@@ -1,4 +1,5 @@
 redirects:
+  - https://docs.google.com/spreadsheets/d/1d9tuLAdAFzlqzlAhoi_tCUCOQaG_C6Gt2G6JMSyA_pg/edit
   - from: (.*).php
     to: $1.html
     type: temporary
