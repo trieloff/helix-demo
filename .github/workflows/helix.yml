@@ -11,7 +11,4 @@ jobs:
       # if: github.event.action == "YOUR_EVENT_TYPE"
       run: |
         echo "repository_dispatch triggered"
-        echo ${{ github.event.client_payload.url }}
-        echo ${{ github.event.type }}
-        echo ${{ github.event.event_type }}
-        echo ${{ github.event.action }}
+        echo ${{ github.event.action }} on ${{ github.event.client_payload.url }}
