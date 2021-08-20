@@ -1,0 +1,14 @@
+on:
+  repository_dispatch:
+    types:
+      - helix-preview
+      - helix-publish
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: dispatch trigger
+      # if: github.event.action == "YOUR_EVENT_TYPE"
+      run: |
+        echo "repository_dispatch triggered"
+        echo ${{ github.event.client_payload.url }}
