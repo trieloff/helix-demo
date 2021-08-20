@@ -14,3 +14,4 @@ jobs:
         echo ${{ github.event.client_payload.url }}
         echo ${{ github.event.type }}
         echo ${{ github.event.event_type }}
+        echo ${{ github.event.action }}
