@@ -9,7 +9,7 @@
     "bulma": "^0.7.4"
   },
   "devDependencies": {
-    "@adobe/helix-cli": "^13.0.12",
+    "@adobe/helix-cli": "^14.17.3",
     "snowpack": "^1.0.2"
   },
   "scripts": {
